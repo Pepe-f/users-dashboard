@@ -61,8 +61,8 @@ export function UserDetailModal() {
 function ModalContent({ user }: { user: User }) {
   return (
     <ScrollArea className="max-h-[80vh]">
-      <div className="px-6 pb-6">
-        <div className="flex items-end gap-4 -mt-10 mb-5">
+      <div className="px-6 py-6">
+        <div className="flex items-end gap-4 mb-5">
           <Avatar className="h-20 w-20 ring-4 ring-background shadow-lg">
             <AvatarImage
               src={user.image}
